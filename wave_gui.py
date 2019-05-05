@@ -62,19 +62,19 @@ if __name__ == "__main__":
     main.resizable(False, False)
 
     # Frame1の作成
-    frame1 = tk.Frame(main,borderwidth = 5)
+    frame1 = tk.Frame(main,borderwidth = 10)
     frame1.grid()
 
     # Frame2の作成
-    frame2 = tk.Frame(main,borderwidth = 5)
+    frame2 = tk.Frame(main,borderwidth = 10)
     frame2.grid(row=1,sticky=tk.E)
 
     # Frame3の作成
-    frame3 = tk.Frame(main,borderwidth = 5)
+    frame3 = tk.Frame(main,borderwidth = 10)
     frame3.grid(row=2)
 
     # Frame4の作成
-    frame4 = tk.Frame(main,borderwidth = 5)
+    frame4 = tk.Frame(main,borderwidth = 10)
     frame4.grid(row=3)
 
     # ラベルの作成
@@ -90,7 +90,7 @@ if __name__ == "__main__":
 
     # 参照ファイルパス表示ラベルの作成
     load_file = tk.StringVar()
-    load_file_entry = ttk.Entry(frame1, textvariable=load_file, width=50)
+    load_file_entry = ttk.Entry(frame1, textvariable=load_file, width=70)
     load_file_entry.grid(row=0, column=2)
 
     # Cancelボタンの作成
