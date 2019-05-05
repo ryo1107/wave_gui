@@ -23,5 +23,7 @@
 $ python wave_gui.py
 ```
 
+![Main_img](https://raw.githubusercontent.com/ryo1107/wave_gui/master/img/wave_gui.png)
+
 2. するとウィンドウが出てくるので、参照ボタンをクリックし、LoadしたいCSVファイルを選択し、Loadボタンをクリックする。
 3. Wave選択ボックスにCSVのファイル名の選択肢が追加されるので、選択をし、一番下の段のボタンをクリックする。
